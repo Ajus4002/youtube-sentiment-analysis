@@ -1,0 +1,30 @@
+/* Global CSS used within your BEX. This is not preprocessed so this has to be pure CSS. */
+
+
+.ytsa-btn-analyse {
+  background-color: #009688;
+  border-radius: 2px;
+  color: #fff;
+  padding: 10px 16px;
+  margin: auto 4px;
+  white-space: nowrap;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: .007px;
+  text-transform: uppercase;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  border: navajowhite;
+  font-family: Roboto, Arial, sans-serif;
+  cursor: pointer;
+}
+
+.ytsa-iframe {
+  width: 100%;
+  margin-top: 25px;
+  height: 500px;
+}
