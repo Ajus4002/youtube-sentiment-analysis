@@ -189,8 +189,8 @@ export default {
         return;
       }
 
-      this.analysedData = await this.analyseText(this.transcribedData.transcription)
       this.classifiedData = await this.classifyText(this.transcribedData.transcription)
+      this.analysedData = await this.analyseText(this.transcribedData.transcription)
 
       this.cachedData[hash] = {
         analysedData: this.analysedData,

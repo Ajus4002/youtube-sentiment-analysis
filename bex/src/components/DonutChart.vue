@@ -51,8 +51,9 @@ export default {
           formatter: "{b} <br/>{d}%"
         },
         legend: {
-          orient: "vertical",
-          left: "left",
+          orient: "horizontal",
+          left: "auto",
+          top: 'bottom',
           data: this.data.map(v => v.name)
         },
         series: [
@@ -62,6 +63,7 @@ export default {
             radius: ['40%', '70%'],
             center: ["50%", "60%"],
             data: this.data,
+            top: 'middle',
             emphasis: {
               itemStyle: {
                 shadowBlur: 10,
